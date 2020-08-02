@@ -108,9 +108,9 @@ sudo ufw allow 55555/tcp
 # 11. Auto script download
 
 cd ..
-echo "$(curl -fsSL https://raw.githubusercontent.com/michaelparkerr/ctc/master/mining.sh)" > mining.sh
+echo "$(curl -fsSL https://raw.githubusercontent.com/gangchankim/ctc_mining_script/master/mining.sh)" > mining.sh
 chmod +x mining.sh
-echo "$(curl -fsSL https://raw.githubusercontent.com/michaelparkerr/ctc/master/client.sh)" > client.sh
+echo "$(curl -fsSL https://raw.githubusercontent.com/gangchankim/ctc_mining_script/master/client.sh)" > client.sh
 chmod +x client.sh
 
 # 12. Run Server
